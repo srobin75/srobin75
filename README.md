@@ -1,5 +1,5 @@
 ## Hi there 👋
-
+The respository contains files for CIS300 project assignments
 <!--
 **srobin75/srobin75** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
