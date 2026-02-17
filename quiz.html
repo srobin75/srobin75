@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="witdth=device-width, initial-scale =1.0">
+        <title>K9 Compass</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+        <header>
+            <h1>K9 Compass</h1>
+            <p class="subheader">Find the Right Breed for You!</p>
+        </header>
+        <nav>
+            <body class="quiz"></body>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quiz.html">Breed Match</a></li>
+               <li> <a href="training.html">Training</a></li>
+                <li><a href="carecost.html">Care and Cost</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Breed Match Quiz</h2>
+            <br><br>
+                <p>Choosing the right breed starts with understanding your lifestyle and daily routine. Different breeds have different energy levels, space requirements, and care needs. Some dogs thrive in active households with lots of excerise, while others are better suited for quieter environments. By thinking about how much time you can dedicated to training, play, and companionship, you can select a breed that fits naturally into your home and creates a positive experience for both you and your dog.</p>
+                <br><br>
+                <img src="images/IMG_7894.jpg">
+                <div class="quizlayout">
+                 <div class="formbox">
+                    <form id="breedmatch" action="#" method="post">
+                           <p>Take the quiz below to find your furr-ever friend!</p>
+            <label for="activity">Activity Level:</label><br>
+            <select name="activity" id="activity" required>
+                <option value="">--Choose One--</option>
+                <option value="low">Low</option>
+                <option value="moderate">Moderate</option>
+                <option value="high">High</option>
+            </select>
+            <br><br>
+            <label for="homeetype">Type of Home:</label><br>
+            <select name="hometype" id="hometype" required>
+             <option value="">--Choose One--</option>
+             <option value="apartment">Apartment</option>
+             <option value="small yard">House (small yard)</option>
+             <option value="large yard">House (large yard)</option>
+             <option value="rural">Rural (large property)</option>
+            </select>
+            <br><br>
+            <label for="time">Time Available Per Day</label><br>
+            <select name="time" id="time" required>
+             <option value="">--Choose One--</option>
+             <option value="Under1">Under 1 hour</option>
+             <option value="1to2">1-2 hours</option>
+             <option value="2to3">2-3 hours</option>
+             <option value="3to4">3-4 hours</option>
+             <option value="4plus">4+ hours</option>
+            </select>
+            <br><br>
+            <label for="size">Preferred Dog Size</label><br>
+            <select name="size" id="size" required>
+             <option value="">--Choose One--</option>
+             <option value="xsmall">Extra Small</option>
+             <option value="small">Small</option>
+             <option value="medium">Medium</option>
+             <option value="large">Large</option>
+             <option value="xlarge">Extra Large</option>
+            </select>
+            <br><br>
+            <label for="children">Children in Household</label><br>
+            <select name="children" id="children" required>
+             <option value="">--Choose One--</option>
+             <option value="Under1">Under 1 Year</option>
+             <option value="1to5">1-5 years old</option>
+             <option value="5to10">5-10 years old</option>
+             <option value="10-15">10-15 years old</option>
+             <option value="15plus">15+ years old</option>
+             <option value="no kids">No children</option>
+            </select>
+            <br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email"required>
+            <br><br>
+            <input type="submit" value="Submit Quiz"><br>
+            <input type="reset" value="Reset"><br>
+                </form>
+            </div>
+        </main>
+        <footer>
+                <br>copyright &copy; K9 Compass | Resource links | Contact<br>
+                <a href="mailto:srobin75@asu.edu">srobin75@asu.edu</a>
+        </footer>
