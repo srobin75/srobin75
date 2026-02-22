@@ -31,7 +31,10 @@
                  <div class="formbox">
                     <form id="breedmatch" action="#" method="post">
                            <p>Take the quiz below to find your furr-ever friend!</p>
-            <label for="activity">Activity Level:</label><br>
+                            <span class="required">
+                                <p>*Required fields are marked with an asterisk</p>
+                            </span>
+            <label for="activity">*Activity Level:</label><br>
             <select name="activity" id="activity" required>
                 <option value="">--Choose One--</option>
                 <option value="low">Low</option>
@@ -39,7 +42,7 @@
                 <option value="high">High</option>
             </select>
             <br><br>
-            <label for="homeetype">Type of Home:</label><br>
+            <label for="homeetype">*Type of Home:</label><br>
             <select name="hometype" id="hometype" required>
              <option value="">--Choose One--</option>
              <option value="apartment">Apartment</option>
@@ -48,7 +51,7 @@
              <option value="rural">Rural (large property)</option>
             </select>
             <br><br>
-            <label for="time">Time Available Per Day</label><br>
+            <label for="time">*Time Available Per Day</label><br>
             <select name="time" id="time" required>
              <option value="">--Choose One--</option>
              <option value="Under1">Under 1 hour</option>
@@ -58,7 +61,7 @@
              <option value="4plus">4+ hours</option>
             </select>
             <br><br>
-            <label for="size">Preferred Dog Size</label><br>
+            <label for="size">*Preferred Dog Size</label><br>
             <select name="size" id="size" required>
              <option value="">--Choose One--</option>
              <option value="xsmall">Extra Small</option>
@@ -68,7 +71,7 @@
              <option value="xlarge">Extra Large</option>
             </select>
             <br><br>
-            <label for="children">Children in Household</label><br>
+            <label for="children">*Children in Household</label><br>
             <select name="children" id="children" required>
              <option value="">--Choose One--</option>
              <option value="Under1">Under 1 Year</option>
@@ -79,15 +82,18 @@
              <option value="no kids">No children</option>
             </select>
             <br><br>
-            <label for="email">Email:</label><br>
+            <label for="email">*Email:</label><br>
             <input type="email" name="email" id="email"required>
             <br><br>
-            <input type="submit" value="Submit Quiz"><br>
-            <input type="reset" value="Reset"><br>
+            <input type="submit" value="Submit Quiz">
+            <input type="reset" value="Reset">
                 </form>
             </div>
         </main>
         <footer>
-                <br>copyright &copy; K9 Compass | Resource links | Contact<br>
-                <a href="mailto:srobin75@asu.edu">srobin75@asu.edu</a>
+            <p>
+                <br>&copy; K9 Compass |
+                <a href="https://www.akc.org" target="_blank">Resource Links</a>
+                <br>
+                <p>srobin75@asu.edu</p>
         </footer>
