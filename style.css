@@ -50,10 +50,17 @@ header {
     width: 500px;
     margin: 25px auto;
     padding: 20px;
+    padding-top: 5px;
     background-color: var(--backround);
     border: 2px solid var(--text);
     text-align: center;
     border-radius: 8px;
+    font-size: .98em;
+}
+.required {
+    font-weight: normal;
+    font-size: x-small;
+
 }
 nav {
     text-align: center;
@@ -78,6 +85,17 @@ nav a:hover{
 color: var(--primary);
 text-decoration: underline;
 }
+table {
+        border: 2px solid var(--text);
+        border-collapse: collapse;
+    }
+    td, th {
+        padding: 0.5em;
+        border: 2px solid var(--text);
+    }
+    td {
+        text-align: center;
+    }
 main {
     background-color: var(--primary);
     padding: 2em 1.5em;
@@ -121,6 +139,13 @@ body.training header {
     background-size:100% 100%;
     background-repeat: no-repeat;
 }
+body.carecost header {
+    background-image: url(images/IMG_0480.jpg);
+    background-position: left;
+}
+body.carecost .subheader {
+    display: none;
+}
 
 body.quiz .subheader {
     display: none;
@@ -128,12 +153,26 @@ body.quiz .subheader {
 body.training .subheader {
     display: none;
 }
+body.carecost h2 {
+    text-align: center;
+}
+body.carecost p {
+    text-align: center;
+}
 body.quiz {
     background-color: var(--primary)
 }
 body.quiz #wrapper {
     background-color:var(--backround);
-    
+}
+body.carecost {
+    background-color: var(--primary)
+}
+body.carecost #wrapper {
+    background-color:var(--backround);
+}
+body.carecost main {
+    background-color: var(--backround);
 }
 body.training header h1 {
 position: relative;
@@ -171,7 +210,6 @@ body.quiz main {
     padding: 20px;
     background-color: var(--backround);
 }
-
 footer a {
     color: var(--backround);
     text-shadow: var(--text);
