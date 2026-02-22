@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <html lang="en">
-    <head>     
-<!-- Google tag (gtag.js) -->
+    <head>
+        <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-69W49207JX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -15,14 +15,13 @@
         <title>K9 Compass</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+     <body class="quiz">
         <div id="wrapper">
         <header>
             <h1>K9 Compass</h1>
             <p class="subheader">Find the Right Breed for You!</p>
         </header>
         <nav>
-            <body class="quiz"></body>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="quiz.html">Breed Match</a></li>
@@ -35,14 +34,12 @@
             <br><br>
                 <p>Choosing the right breed starts with understanding your lifestyle and daily routine. Different breeds have different energy levels, space requirements, and care needs. Some dogs thrive in active households with lots of excerise, while others are better suited for quieter environments. By thinking about how much time you can dedicated to training, play, and companionship, you can select a breed that fits naturally into your home and creates a positive experience for both you and your dog.</p>
                 <br><br>
-                <img src="images/IMG_7894.jpg">
+                <img src="images/IMG_7894.jpg" alt="Dog training session">
                 <div class="quizlayout">
                  <div class="formbox">
                     <form id="breedmatch" action="#" method="post">
                            <p>Take the quiz below to find your furr-ever friend!</p>
-                            <span class="required">
-                                <p>*Required fields are marked with an asterisk</p>
-                            </span>
+                            <p><span> class="required">*</span>*Required fields are marked with an asterisk</p>
             <label for="activity">*Activity Level:</label><br>
             <select name="activity" id="activity" required>
                 <option value="">--Choose One--</option>
@@ -51,7 +48,7 @@
                 <option value="high">High</option>
             </select>
             <br><br>
-            <label for="homeetype">*Type of Home:</label><br>
+            <label for="hometype">*Type of Home:</label><br>
             <select name="hometype" id="hometype" required>
              <option value="">--Choose One--</option>
              <option value="apartment">Apartment</option>
@@ -92,18 +89,22 @@
             </select>
             <br><br>
             <label for="email">*Email:</label><br>
-            <input type="email" name="email" id="email"required>
+            <input type="email" name="email" id="email" required>
             <br><br>
             <input type="submit" value="Submit Quiz">
             <input type="reset" value="Reset">
                 </form>
             </div>
+                </div>
         </main>
         <footer>
-           <p>
+            <p>
                 <br>&copy; K9 Compass |
                 <a href="https://www.akc.org" target="_blank">Resource Links</a>
                 <br>
                 <a href="#">srobin75@asu.edu</a>
             </p>
         </footer>
+        </div>
+    </body>
+    </html>
