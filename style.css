@@ -111,7 +111,7 @@ main h2, main h3 {
 }
 main h2 {
     margin-top: 0px;
-    float: center;
+    text-align: center;
 }
 main p {
     text-align: center;
@@ -124,7 +124,6 @@ footer {
     background-color: var(--secondary);
     border-top: 3px solid var(--text);
     color: var(--backround);
-    text-shadow: var(--text);
 }
 body.home header {
      background-image: url(images/boxer.jpg);
@@ -177,7 +176,6 @@ body.carecost main {
 body.training header h1 {
 position: relative;
 top: -15px;
-text-shadow:var(--text);
 color: var(--backround);
 }
 body.quiz .formbox {
@@ -212,7 +210,6 @@ body.quiz main {
 }
 footer a {
     color: var(--backround);
-    text-shadow: var(--text);
 }
 footer a:hover {
     color: var(--text);
