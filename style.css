@@ -47,7 +47,8 @@ header {
         text-shadow: 2px 2px 6px var(--text);
 }
 .formbox {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     margin: 25px auto;
     padding: 20px;
     padding-top: 5px;
@@ -156,7 +157,8 @@ body.carecost p {
     text-align: center;
 }
 body.quiz {
-    background-color: var(--primary)
+    background-color: var(--primary);
+    box-sizing: border-box;
 }
 body.quiz #wrapper {
     background-color:var(--backround);
@@ -188,13 +190,8 @@ body.quiz .formbox {
 body.quiz .quizlayout {
     overflow: auto;
 }
-body.quiz main img {
-    width: 45%;
-    display: block;
-    margin: 0 auto 30px auto;
-    float: right;
-    border-radius: 12px;
-}
+
+
 body.quiz main p {
     width: 60%;
     margin: 0 auto 25px auto;
@@ -204,8 +201,7 @@ body.quiz main {
     text-align: center;
     padding: 20px;
     background-color: var(--backround);
-
-}
+    }
 footer a {
     color: var(--backround);
 }
@@ -223,4 +219,72 @@ body.quiz main img {
     margin: 0 auto 20px auto;
     display: block;
     float: none;
+}
+}
+@media (min-width:700px) and (max-width:1199px) {
+    body.quiz .quizlayout {
+        align-items: flex-start;
+        justify-content: center;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    body.quiz .formbox {
+        width: 85%;
+        max-width: 480px;
+        float: none;
+        margin: 0;
+        gap: 20px;
+        overflow: none;
+        height: auto;
+        display: block;
+    }
+    body.quiz main img {
+        width: 55%;
+        max-width: 480px;
+        float: none;
+        margin: 0;
+        gap: 20px;
+        overflow: none;
+        height: auto;
+        display: block;
+    }
+}
+@media (min-width:1200px) {
+    body.quiz .quizlayout {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 30px;
+    }
+    body.quiz main img {
+        width: 60%;
+        max-width: 700px;
+        height: auto;
+        margin: 0;
+    }
+    body.quiz .formbox {
+        width: 80%;
+        max-width: 520px;
+        margin-top: 0;
+    }
+}
+@media (min-width:700px) {
+    body.quiz .quizlayout {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 30px;
+    }
+    body.quiz main img {
+        width: 50%;
+        max-width: 600px;
+        height: auto;
+        display: block;
+        
+    }
+    body.quiz .formbox {
+        width: 50%;
+        max-width: 600px;
+    }
 }
