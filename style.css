@@ -132,10 +132,8 @@ body.quiz header {
     background-position: center 55%;
 }
 body.training header {
-    background-image: url(images/IMG_5291.JPG);
-    background-position: center;
-    background-size:100% 100%;
-    background-repeat: no-repeat;
+    background-image: url(images/IMG_0988.jpg);
+    background-position: right;
 }
 body.carecost header {
     background-image: url(images/IMG_0480.jpg);
