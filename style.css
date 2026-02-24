@@ -258,13 +258,13 @@ body.quiz main img {
         gap: 30px;
     }
     body.quiz main img {
-        width: 60%;
+        width: 50%;
         max-width: 700px;
         height: auto;
         margin: 0;
     }
     body.quiz .formbox {
-        width: 80%;
+        width: 50%;
         max-width: 520px;
         margin-top: 0;
     }
@@ -277,14 +277,14 @@ body.quiz main img {
         gap: 30px;
     }
     body.quiz main img {
-        width: 50%;
+        width: 55%;
         max-width: 600px;
         height: auto;
         display: block;
         
     }
     body.quiz .formbox {
-        width: 50%;
+        width: 650px;
         max-width: 600px;
     }
 }
