@@ -125,7 +125,7 @@ footer {
     color: var(--backround);
 }
 body.home header {
-     background-image: url(images/boxer.jpg);
+     background-image: url(images/boxeroptimized.jpg);
 }
 body.quiz header {
     background-image: url(images/IMG_6320.JPG);
