@@ -212,3 +212,15 @@ footer a {
 footer a:hover {
     color: var(--text);
 }
+@media (max-width:768px) {
+    body.quiz .formbox {
+        width: 100%;
+        float: none;
+        margin: 0 auto 20px auto;
+    }
+body.quiz main img {
+    width: 100%;
+    margin: 0 auto 20px auto;
+    display: block;
+    float: none;
+}
